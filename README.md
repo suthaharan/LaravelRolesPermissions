@@ -49,3 +49,6 @@ $ php artisan migrate
 In app/Http/Kernel.php add RoleMiddleware, PermissionMiddleware and RoleOrPermissionMiddleware
 
 ```
+
+
+composer require barryvdh/laravel-debugbar --dev
