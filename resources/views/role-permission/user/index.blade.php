@@ -1,4 +1,4 @@
-@extends('base')
+@extends('logged')
 @section('title')
     Role Create
 @endsection

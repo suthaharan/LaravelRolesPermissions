@@ -1,5 +1,6 @@
 @extends('base')
 @section('title')
+<meta name="csrf-token" content="{{ csrf_token() }}">
     Login Screen
 @endsection
 @section('content')
